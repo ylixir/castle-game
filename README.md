@@ -11,6 +11,8 @@ everyone but princes and kings wear the color of their castle
 the princes and kings wear the color red
 epaulets and boots are the color of the castle
 everyone's crowns are the color of the castle
+one each of the king, queen, prince, and princess
+
 
 king and queen goal is to rule their kingdom
 
@@ -30,3 +32,6 @@ everyone can have pets
 - the pets choose their own name
 - they can ask the owners for suggestions
 
+all of the knights will be silver, but their feather on top of their helmet will be the color of their kingdom
+
+there will be a game pass were you can put villagers in jail
