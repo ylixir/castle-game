@@ -80,7 +80,7 @@ function tag {
 function npm {
     run npm "${@}"
 }
-prettierFiles='**/*.{json,md,yml,yaml}'
+
 function format-verify {
     npm run format -- --list-different
 }
@@ -89,9 +89,17 @@ function format {
     npm run format -- --write
 }
 
+function build {
+    npm run build
+}
+
+function clean {
+    npm run clean
+}
 
 function check {
-    format
+    build \
+    && format
 }
 
 

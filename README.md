@@ -1,5 +1,27 @@
 # castle-game
 
+## Build
+
+```
+./go build
+```
+
+outputs to `/lib/src/`
+
+## Clean
+
+```
+./go build
+```
+
+## Watch
+
+```
+./go npm run watch
+```
+
+## design
+
 faire avec ma fille
 
 4 castles

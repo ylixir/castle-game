@@ -1,17 +1,21 @@
 {
   "name": "castle-game",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A game made by ylixir and 3valre",
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "format": "prettier '**/*.{json,md,yml,yaml}'"
+    "format": "prettier '**/*.{json,md,yml,yaml}'",
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ylixir/castle-game.git"
   },
   "keywords": [
+    "BuckleScript",
     "game"
   ],
   "contributors": [

@@ -1,4 +1,9 @@
 /node_modules/
+/.vscode/
 
 #consider using the lockfile for CI caching
 package-lock.json
+
+# bucklescript artifacts
+/lib/
+.merlin
