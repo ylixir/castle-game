@@ -1,32 +1,9 @@
-# Prerequisites
-*.d
+/node_modules/
+/.vscode/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+#consider using the lockfile for CI caching
+package-lock.json
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# bucklescript artifacts
+/lib/
+.merlin
