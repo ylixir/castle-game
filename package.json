@@ -1,0 +1,30 @@
+{
+  "name": "castle-game",
+  "version": "0.0.1",
+  "description": "A game made by ylixir and 3valre",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "format": "prettier '**/*.{json,md,yml,yaml}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ylixir/castle-game.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "contributors": [
+    "Jon Allen <ylixir$gmail.com> (https://ylixir.github.io)",
+    "3valre"
+  ],
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/ylixir/castle-game/issues"
+  },
+  "homepage": "https://github.com/ylixir/castle-game#readme",
+  "devDependencies": {
+    "bs-platform": "^4.0.18",
+    "prettier": "^1.16.4"
+  }
+}
