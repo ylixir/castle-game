@@ -76,6 +76,7 @@ each villager gets one horse.
 each person gets 100 money each day. get paid extra for doing jobs.
 
 # combat
+
 humans/castle factions don't fight eachother.
 
 there are monsters and players can choose to be human or monster.

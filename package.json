@@ -4,10 +4,13 @@
   "description": "A game made by ylixir and 3valre",
   "main": "index.js",
   "scripts": {
-    "test": "test",
     "format": "prettier '**/*.{json,md,yml,yaml}'",
-    "clean": "bsb -clean-world",
+    "start": "./lib/bs/bytecode/indexhot.byte",
+    "start:native": "./lib/bs/native/index.native",
     "build": "bsb -make-world",
+    "build:web": "bsb -make-world -backend js",
+    "build:native": "bsb -make-world -backend native",
+    "clean": "bsb -clean-world",
     "watch": "bsb -make-world -w"
   },
   "repository": {
@@ -28,7 +31,10 @@
   },
   "homepage": "https://github.com/ylixir/castle-game#readme",
   "devDependencies": {
-    "bs-platform": "^4.0.18",
+    "bsb-native": "^4.0.7000",
     "prettier": "^1.16.4"
+  },
+  "dependencies": {
+    "reprocessing": "^0.1.1"
   }
 }

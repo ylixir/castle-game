@@ -5,14 +5,23 @@
     "dir": "src",
     "subdirs": true
   },
-  "package-specs": {
-    "module": "commonjs",
-    "in-source": false
-  },
-  "suffix": ".bs.js",
-  "bs-dependencies": [],
+  "bs-dependencies": ["reprocessing"],
   "warnings": {
     "error": "+101"
   },
+  "entries": [
+    {
+      "backend": "bytecode",
+      "main-module": "IndexHot"
+    },
+    {
+      "backend": "native",
+      "main-module": "Main"
+    },
+    {
+      "backend": "js",
+      "main-module": "Main"
+    }
+  ],
   "refmt": 3
 }
